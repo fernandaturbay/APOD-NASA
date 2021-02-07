@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foto Astronômica do dia - NASA</title>
+</head>
+<body>
+    <header>
+        <h1>Foto Astronômica do dia - NASA</h1>
+        <h2>Todos os dias, uma foto mágica do Universo para você :)</h2>
+    </header>
+
+    <main>
+        <div id = "container">
+            <form>
+                <input type = "date" id="data">
+                <button type = "submit">Entrar!</button>
+            </form>
+        </div>
+
+        <figure>
+            <div class="imagem">
+                <img src = "" id = "imgDoDia">
+                <figcaption id = "legenda"></figcaption>
+            </div>
+        </figure>
+
+        <div class = "explicacaoImagem">
+            <p id = "textoImagem"></p>
+        </div>
+
+        <div class = "dataImagem">
+            <p id = "dataDaImagem"></p>
+        </div>
+    </main>
+
+    <footer>
+        <h6> Apod Nasa - Fernanda Turbay - 2020</h6>
+    </footer>
+    <script src ="apod-nasa.js"></script>
+</body>
+</html>
